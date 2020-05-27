@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_drawer">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginHorizontal="28dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:text="Welcome, Medico Finder allows you to detect approach doctors accordingly the case of your incident" />
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo" />
+
+        <Button
+            android:id="@+id/btn_begin"
+            android:layout_width="143dp"
+            android:layout_height="58dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="40dp"
+            android:textSize="16dp"
+            android:textColor="#ffffff"
+            android:text="GET STARTED" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Copyright © - All Rights Reserved"
+        app:layout_constraintTop_toBottomOf="@+id/content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

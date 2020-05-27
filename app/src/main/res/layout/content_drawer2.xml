@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_drawer2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:id="@+id/id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="81dp"
+                    android:src="@drawable/pbar2" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="select your syptomes"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5sp"/>
+
+
+                <!--<RadioGroup-->
+                <!--android:id="@+id/Gradio"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<RadioButton-->
+                <!--android:id="@+id/s1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Angoisse, stress, fatigue"-->
+                <!--/>-->
+
+                <!--<RadioButton-->
+                <!--android:id="@+id/s2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Mal au ventre, Nausée ou vomissement"-->
+                <!--/>-->
+
+                <!--<RadioButton-->
+                <!--android:id="@+id/s3"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Hypoglycimé diabétique"-->
+                <!--/>-->
+
+                <!--<RadioButton-->
+                <!--android:id="@+id/s4"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Mal à la tête, migraine"-->
+                <!--/>-->
+                <!--<RadioButton-->
+                <!--android:id="@+id/s5"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Douleur au thorax (côte, poumon, coeur...)"-->
+                <!--/>-->
+
+                <!--<RadioButton-->
+                <!--android:id="@+id/s6"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Fractures ou fissures d'os"-->
+                <!--/>-->
+
+                <!--<RadioButton-->
+                <!--android:id="@+id/s7"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Tricot de peau ou rougeole ou la gale"-->
+                <!--/>-->
+
+                <!--<RadioButton-->
+                <!--android:id="@+id/s8"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Anémie ou hypertension ou batements de coeur"-->
+                <!--/>-->
+
+                <!--<RadioButton-->
+                <!--android:id="@+id/s9"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Carrie dentaire"-->
+                <!--/>-->
+
+                <!--<RadioButton-->
+                <!--android:id="@+id/s10"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Angine ou Oreillons ou Sinusite ou goitre"-->
+                <!--/>-->
+
+                <!--<RadioButton-->
+                <!--android:id="@+id/s11"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Gripe(fièvre, toux, fatigue)"-->
+                <!--/>-->
+
+                <!--<RadioButton-->
+                <!--android:id="@+id/s12"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Déprésssion, Insomnie"-->
+                <!--/>-->
+
+                <!--<RadioButton-->
+                <!--android:id="@+id/s13"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Inféction urinaire, prostate"-->
+                <!--/>-->
+
+                <!--<RadioButton-->
+                <!--android:id="@+id/s14"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Femme enceinte, Obstétrique..."-->
+                <!--/>-->
+
+                <!--</RadioGroup>-->
+
+
+                <Spinner
+                    android:id="@+id/SpinnerSymptome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="50dp"
+                    android:spinnerMode="dialog"
+                    android:layout_marginHorizontal="30dp"
+                    android:visibility="visible"
+                    ></Spinner>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The results provided constitute an estimate to refer to the appropriate and available doctor"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="17sp"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="40sp"
+                    android:gravity="center"
+                    />
+
+                <View
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_width="50dp"
+                    android:layout_marginTop="10dp"/>
+
+                <Button
+                    android:id="@+id/btn_form3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="VALIDATION"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

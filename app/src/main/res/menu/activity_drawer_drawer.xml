@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_index"
+            android:icon="?attr/homeAsUpIndicator"
+            android:title="Acceuil" />
+        <item
+            android:id="@+id/nav_form1"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Renseignement" />
+        <item
+            android:id="@+id/nav_form2"
+            android:icon="@android:drawable/alert_light_frame"
+            android:title="Symptomes" />
+        <item
+            android:id="@+id/nav_form3"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Localisation" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

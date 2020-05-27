@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "designation": "Mohamed karim",
+      "spec": "Psychologue",
+      "adresse": "Alger Centre Bab el Zouar",
+      "wilaya": null,
+      "tel": "021 45 89 89",
+      "email": "m.karim@gmail.com",
+      "latitude": "32.5959",
+      "longitude": "-0.637888"
+    },
+    {
+      "id": 2,
+      "designation": "Mourad Abbas",
+      "spec": "Psychologue",
+      "adresse": "kokockok",
+      "wilaya": null,
+      "tel": "021 23 45 68",
+      "email": "azerty@gmail.com",
+      "latitude": "45.56898",
+      "longitude": "1.55959"
+    },
+    {
+      "id": 3,
+      "designation": "Salim Mohamed",
+      "spec": "Gastrologue",
+      "adresse": "cdzc",
+      "wilaya": null,
+      "tel": "021 45 89 45",
+      "email": "n@gmail.com",
+      "latitude": "32.5698",
+      "longitude": "1.89898"
+    },
+    {
+      "id": 6,
+      "designation": "Mohamed lounis",
+      "spec": "Psychologue",
+      "adresse": "sba",
+      "wilaya": "sba",
+      "tel": "024 56 89 56",
+      "email": "lounis@gmail.com",
+      "latitude": "35.182473",
+      "longitude": "-0.64686"
+    },
+    {
+      "id": 7,
+      "designation": "Amokrane Yassine",
+      "spec": "Psychologue",
+      "adresse": "sba",
+      "wilaya": "sba",
+      "tel": "024 56 89 56",
+      "email": "amokrane@gmail.com",
+      "latitude": "35.202507",
+      "longitude": "-0.637888"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:iconTint="@drawable/ic_help_outline_black_24dp"
+        android:title="About"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:iconTintMode="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Exit"
+        app:showAsAction="never" />
+
+</menu>
